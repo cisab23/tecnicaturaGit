@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e942914-21b2-4b02-b35b-6a4658993b4d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Clase7_Ejercicio3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Clase7_Ejercicio4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Clase7_Ejercicio5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +23,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2y1ocZcQ4KNNZ2SfWCZnxyqzoMz" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -35,22 +34,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Clase6_Ejercicio1.executor": "Run",
-    "Python.Clase6_Ejercicio2.executor": "Run",
-    "Python.Clase6_Ejercicio3.executor": "Run",
-    "Python.Clase6_Ejercicio4.executor": "Run",
-    "Python.Clase6_NumATexto.executor": "Run",
-    "Python.Clase7_Ejercicio3.executor": "Run",
-    "Python.Clase7_Ejercicio4.executor": "Run",
-    "Python.Clase7_Ejercicio5.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Clase6_Ejercicio1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Clase6_Ejercicio2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Clase6_Ejercicio3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Clase6_Ejercicio4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Clase6_NumATexto.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Clase7_Ejercicio3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Clase7_Ejercicio4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Clase7_Ejercicio5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.Clase7_Ejercicio4">
     <configuration name="Clase6_Ejercicio3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Leccion 2" />
