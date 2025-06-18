@@ -305,7 +305,7 @@ public class HolaMundo {
        }
        else {
            System.out.println("No puede asistir al juego de su hijo");
-       }*/
+       }
        
        // Operador ternario
        var resultadoT = (5 > 8) ? "Verdadero" : "Falso";
@@ -313,5 +313,15 @@ public class HolaMundo {
         var numeroT = 4;
         resultadoT = (numeroT % 2 == 0) ? "Es par" : "Es impar";
         System.out.println("resultadoT = " + resultadoT);
+        
+        // Prioridad de los operadores
+        var x = 5;
+        var y = 10;
+        var z = ++x + y--; // Preincremento y posdecremento
+        System.out.println("x = " + x); //6
+        System.out.println("y = " + y); //9
+        System.out.println("z = " + z); //10
+        var solucionAritmetica = 4 + 5 * 6 / 3; //4 + ((5 * 6) / 3) = 30
+        */
     }
 }
