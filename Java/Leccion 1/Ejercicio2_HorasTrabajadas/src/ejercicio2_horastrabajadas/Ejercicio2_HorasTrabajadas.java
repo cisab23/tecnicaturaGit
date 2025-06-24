@@ -1,20 +1,20 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+/* Hacer un programa que calcule e imprima el salario de un empleado, a partir
+de sus horas trabajadas y de su salario por hora.
  */
+
 package ejercicio2_horastrabajadas;
 
-/**
- *
- * @author abril
- */
-public class Ejercicio2_HorasTrabajadas {
+import java.util.Scanner;
 
-    /**
-     * @param args the command line arguments
-     */
+public class Ejercicio2_HorasTrabajadas {
     public static void main(String[] args) {
-        // TODO code application logic here
+        Scanner entrada = new Scanner (System.in);
+        System.out.println("Ingrese las horas trabajadas: ");
+        double horas = entrada.nextDouble();
+        System.out.println("Ingrese el valor de la hora: ");
+        double valor = entrada.nextDouble();
+        double salario = horas * valor;
+        System.out.println("El salario del empleado es: $"+ salario);
     }
     
 }
