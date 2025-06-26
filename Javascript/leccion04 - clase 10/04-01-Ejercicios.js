@@ -44,8 +44,8 @@ else{
 console.log("El valor corresponde a "+ saludo);
 
 //Estructura Switch (Misma sintaxis que Java)
-switch(mes){
-case 1: case 2: case 12://Si el mes es 1, 2 o 12
+switch(mes){ //Tambien se pueden usar cadenas
+case 1: case 2: case 12:
     estacion = "Verano";
     break;
 case 3: case 4: case 5:
