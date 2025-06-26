@@ -101,3 +101,110 @@ git log #Para ver los dos commits hechos: Si tienes commiteada alguna clase ante
 cd ..
 cd ..
 ```
+# Clase 4 Miércoles 30 de abril de 2025
+
+<br>
+Analizar cambios en los archivos de tu proyecto Git parte 4</br>
+
+> Ingresamos de la siguiente manera:
+<br>
+Abrir git bash en Window o la terminal de Linux o de Mac: al abrir Git Bash hacerlo como administrador, en terminal también o usar sudo para permisos especiales.</br>
+
+* TAREA -> AGREGAR LOS COMENTARIOS EN LOS COMANDOS, PARA SABER QUE PASA CON CADA UNO.
+
+```sh
+cd tecnicatura
+cd class-git
+ls
+touch historia.txt
+code .
+#Modificamos el archivo historia.txt colocando lo siguiente: Bienvenido     mi nombre es Ariel (coloca tu nombre)
+ctrl + s
+git status
+git add .
+git status
+git commit #Sin agregar -m veremos que pasa
+#Agregar mensaje y salir con
+Esc #Presionamos Escape 
+:wq! + enter #Y ya salimos si estamos en git bash con window
+Esc + shift + z + z #Salimos del mensaje para el commit, en linux, esto anda en algunas terminales
+#Agregamos otra línea de mensaje en historia.txt desde VSC: estoy estudiando programación
+ctrl + s
+git add .
+git commit
+#Se abre un editor de código basado en línea de comandos, editor de texto como VSC llamado vim
+Esc + i #Para comenzar a escribir mensaje del commit, no suele ser necesario
+ctrl + x #Para salir en linux
+s + enter #Para decir si al cambio y aceptar el nombre, ósea no cambiamos el nombre, la (s) es de si y la (y) es de yes, no olvidar enter en linux
+git show #Vemos todos los cambios en el último commit
+git log historia.txt #Vemos todos los commit
+q #Para salir del registro de commits
+#Copiamos un hash mas antoguo y otro reciente, ingresamos el siguiente comando
+git diff hash_commit_numerico hash_commit_numerico #Comparamos diferentes commits y sus cambios, poner la versión mas vieja primero, luego la mas nueva
+q #Para salir
+cd ..
+cd ..
+```
+
+# Clase 5 Miércoles 7 de mayo de 2025
+
+> ¿Qué es el staging?
+
+Tienes una carpeta donde están los archivos de tu proyecto o un<br>
+directorio y allí tenemos el archivo historia.txt, cuando <br>
+entramos por consola a ese archivo y creamos el git init, se <br>
+crea un área en memoria ram que se llama staging, y el otro es <br>
+el repositorio esta es la carpeta .git donde estarán todos los <br>
+cambios al final del proyecto.<br>
+
+Entonces tenemos el área de trabajo, cuando colocamos git add <br>
+historia.txt pasamos al staging o área de preparación, que hay <br>
+que recordar que esto es en la memoria ram y luego con git <br>
+commit -m "Mensaje" pasa al repositorio en la rama master, allí <br>
+se genera un nombre llenos de letras y números, es el hash, el <br>
+nombre del commit.<br>
+
+Imagen<br>
+
+## ¿Qué es Gitflow? 
+Gitflow es un modelo alternativo de creación de ramas en Git en el 
+que se utilizan ramas de función y varias ramas principales. Fue 
+Vincent Driessen en nvie quien lo publicó por primera vez y quien lo 
+popularizó.
+
+### ¿Qué es branch (rama) y cómo funciona un merge en git?
+
+Tenemos una rama llamada master y es donde están los cambios de nuestros <br>
+archivos, con cada commit creamos una nueva versión<br>
+
+Vamos a crear una rama experimental para otras versiones que suele llamarse<br>
+development, al encontrar bug, se crea otra rama que suele llamarse hotfix<br> 
+para hacer reparaciones, siempre que<br> 
+ya tengamos resultados favorables, es donde decidimos<br>
+ hacer un merge, es unir los resultados de las ramas a la rama master.<br>
+
+La principal característica de las ramas principales es que solo existe una de cada tipo.<br>
+El objetivo es que no se instancien y que no reciban código de forma directa a través de commit, <br>
+siempre tienen que recibir código a través de ramas de tipo Feature, Release y Hotfix, siempre a través<br>
+de ramas auxiliares.
+
+Es un riesgo recibir código directamente en la rama Master, porque puede generar defectos<br>
+en el repositorio en las subidas a producción, que no contemplemos o que no preveamos, por lo que <br>
+siempre es mejor integrar código en otras ramas antes de integrar con las ramas Master y Develop.<br>
+
+Esta es una metodología estricta pero que da lugar a diferentes interpretaciones o diferentes formas de<br> 
+llevarla en cada equipo, por lo que en algunos casos, algún experto puede permitirse <br>
+no seguir esa norma, pero son casos muy específicos y siempre de personas de confianza.<br>
+
+En las ramas auxiliares tenemos la rama Feature, la rama Release y la Rama Hotfix, que puede instanciarse<br> 
+todas las veces que se consideren necesarias:<br>
+
+* La rama Feature, para nuevas características, nuevos requisitos o nuevas historias de usuario.
+* La rama Release, para estandarizar o cortar una serie de código que ha estado desarrollándose en la rama Develop, se saca una rama de este tipo, se mergea y ahí se depura.
+* La rama Hotfix, que habitualmente se utiliza para código para depurar el código que venga de producción, por haberse detectado un defecto crítico en producción que deba resolverse, al que se le va a hacer una Release puntual para corregirlo.
+* Estas ramas tienen un principio y un fin, ya que son ramas que se mergean con las ramas Master y Develop y desaparecen.
+
+Podemos tener tantas ramas como queramos, tantos repositorios como queramos, lo más importante es saber<br> 
+cuando hacemos un merge, porque es posible que hayan archivos que rompan otros<br>
+archivos, a esto se lo llama conflicto o bug.<br>
+
