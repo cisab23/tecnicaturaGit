@@ -17,7 +17,7 @@ else if(mes == 9 || mes == 10 || mes == 11){
 else{
     estacion = "Mes incorrecto";
 }
-console.log("El valor corresponde a la estacion"+ estacion);
+console.log("El valor corresponde a la estacion "+ estacion);
 
 // Ejercicio 2: Hora del dia
 /*
