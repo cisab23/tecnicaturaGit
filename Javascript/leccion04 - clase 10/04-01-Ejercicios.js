@@ -44,19 +44,19 @@ else{
 console.log("El valor corresponde a "+ saludo);
 
 //Estructura Switch (Misma sintaxis que Java)
-switch(mes){//No solo se pueden utilizar numeros, tambien cadenas
+switch(mes){
 case 1: case 2: case 12://Si el mes es 1, 2 o 12
     estacion = "Verano";
-    break;//Si no se pone el break, el programa seguirá ejecutando el siguient
-case 3: case 4: case 5://Si el mes es 3,4,5
+    break;
+case 3: case 4: case 5:
     estacion = "Otoño";
-    break;//Si no se pone el break, el programa seguirá ejecutando el sigu
-case 6: case 7: case 8://Si el mes es 6,7,8
+    break;
+case 6: case 7: case 8:
     estacion = "Invierno";
-    break;//Si no se pone el break, el programa seguirá ejecutando el sigu
-case 9: case 10: case 11://Si el mes es 9,10,11
+    break;
+case 9: case 10: case 11:
     estacion = "Primavera";
-    break;//Si no se pone el break, el programa seguirá ejecutando el sigu
+    break;
 default:
     estacion = "Valor Incorrecto";
 }
