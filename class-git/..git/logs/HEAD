@@ -1,0 +1,21 @@
+0000000000000000000000000000000000000000 f2d3781e3eb230219b291bf69dd5fd1e2f826dd2 Abril Cisterna <abril.cisterna23@gmail.com> 1747893198 -0300	commit (initial): Cargamos el README dentro del directorio class-git
+f2d3781e3eb230219b291bf69dd5fd1e2f826dd2 caec4786fa689645d2396dd891d86cf14f9048ed Abril Cisterna <abril.cisterna23@gmail.com> 1747893524 -0300	commit: Se ha cargado la clase 2 al README
+caec4786fa689645d2396dd891d86cf14f9048ed a82816539694470118802f25b8b711db1faa4e6b Abril Cisterna <abril.cisterna23@gmail.com> 1747893804 -0300	commit: Se agrego la clase 3 al README, y se preparo un titulo para la clase 4
+a82816539694470118802f25b8b711db1faa4e6b 98d39b48b209fe87efb41aa65a624450b5407a6f Abril Cisterna <abril.cisterna23@gmail.com> 1749701339 -0300	commit: Se realizaron cambios en el formato de las clases 1,2 y 3.
+98d39b48b209fe87efb41aa65a624450b5407a6f 715bdb20af773eed076f236692749beaa0087acf Abril Cisterna <abril.cisterna23@gmail.com> 1749702842 -0300	commit: Se agregaron las clases 5 y 6 al README
+715bdb20af773eed076f236692749beaa0087acf b6753a51250b77f471d3cab2639b565ba2386677 Abril Cisterna <abril.cisterna23@gmail.com> 1750276316 -0300	commit: Agregamos el archivo historia.txt con un saludo
+b6753a51250b77f471d3cab2639b565ba2386677 b6753a51250b77f471d3cab2639b565ba2386677 Abril Cisterna <abril.cisterna23@gmail.com> 1750276693 -0300	reset: moving to b6753a5
+b6753a51250b77f471d3cab2639b565ba2386677 715bdb20af773eed076f236692749beaa0087acf Abril Cisterna <abril.cisterna23@gmail.com> 1750276786 -0300	reset: moving to 715bdb2
+715bdb20af773eed076f236692749beaa0087acf ad698493b2ee4958c940772d1eb2814390e337b5 Abril Cisterna <abril.cisterna23@gmail.com> 1750276905 -0300	commit: Agregamos el archivo historia.txt y agregamos un saludo
+ad698493b2ee4958c940772d1eb2814390e337b5 715bdb20af773eed076f236692749beaa0087acf Abril Cisterna <abril.cisterna23@gmail.com> 1750277028 -0300	reset: moving to 715bdb2
+715bdb20af773eed076f236692749beaa0087acf df99ae513f7e64f10a30130482427f48c12fe5d3 Abril Cisterna <abril.cisterna23@gmail.com> 1750277127 -0300	commit: Creamos el archivo historia.txt junto con un saludo
+df99ae513f7e64f10a30130482427f48c12fe5d3 04d963307ee83dc318b07b27be88476bed69f1f7 Abril Cisterna <abril.cisterna23@gmail.com> 1750277379 -0300	commit: Se agrego un saludo a los profesores y a la cohorte 2025 al archivo historia.txt
+04d963307ee83dc318b07b27be88476bed69f1f7 715bdb20af773eed076f236692749beaa0087acf Abril Cisterna <abril.cisterna23@gmail.com> 1750277563 -0300	checkout: moving from master to 715bdb2
+715bdb20af773eed076f236692749beaa0087acf 6a46933cdb73bb43ea0ebe5beb8d4f050ea118f5 Abril Cisterna <abril.cisterna23@gmail.com> 1750277887 -0300	commit: Agregamos el archivo historia.txt con un consejo importante
+6a46933cdb73bb43ea0ebe5beb8d4f050ea118f5 04d963307ee83dc318b07b27be88476bed69f1f7 Abril Cisterna <abril.cisterna23@gmail.com> 1750277921 -0300	checkout: moving from 6a46933cdb73bb43ea0ebe5beb8d4f050ea118f5 to master
+04d963307ee83dc318b07b27be88476bed69f1f7 715bdb20af773eed076f236692749beaa0087acf Abril Cisterna <abril.cisterna23@gmail.com> 1750278105 -0300	checkout: moving from master to cambios
+715bdb20af773eed076f236692749beaa0087acf 04d963307ee83dc318b07b27be88476bed69f1f7 Abril Cisterna <abril.cisterna23@gmail.com> 1750278215 -0300	checkout: moving from cambios to master
+04d963307ee83dc318b07b27be88476bed69f1f7 8167c63aa23ae337478efdc20af0086d4ed4bd88 Abril Cisterna <abril.cisterna23@gmail.com> 1750279231 -0300	commit: Se agrego la clase 7 de git bash al README.md y se agregaron lineas a la clase 6
+8167c63aa23ae337478efdc20af0086d4ed4bd88 f1e4eeac8da6e67ea4afef2eed8a765f816e8e78 cisab23 <abril.cisterna23@gmail.com> 1750729073 -0300	commit: Se agregaron las clases 8, 9-A y 9-B de git bash
+f1e4eeac8da6e67ea4afef2eed8a765f816e8e78 07121035ee4e30e95432a760a8e89ab84c4e5f10 cisab23 <abril.cisterna23@gmail.com> 1750732609 -0300	commit: Se agregaron las clases 10-A, 10-B y 11 de Git Bash. Y se realizaron mejoras en el formato de las clases anteriores a estas.
+07121035ee4e30e95432a760a8e89ab84c4e5f10 60d78094d2807a577496c9aab8764074a3f735ca cisab23 <abril.cisterna23@gmail.com> 1750733103 -0300	commit: Se elimino el archivo historia.txt
